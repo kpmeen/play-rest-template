@@ -1,9 +1,12 @@
+import com.typesafe.sbt.SbtScalariform.ScalariformKeys
+
+import scalariform.formatter.preferences._
 
 /**
  * Build script for $name$
  */
 name := "$name$"
-organization := "$organisation$",
+organization := "$organisation$"
 
 version := "1.0-SNAPSHOT"
 

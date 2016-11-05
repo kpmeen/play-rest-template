@@ -2,7 +2,6 @@
 // Sets the SBT log level
 logLevel := Level.Warn
 
-resolvers ++= DefaultOptions.resolvers()
 resolvers += Resolver.typesafeRepo("releases")
 resolvers += Resolver.sonatypeRepo("releases")
 
